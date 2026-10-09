@@ -1,0 +1,232 @@
+{
+  "schema_version": 1,
+  "synthetic": true,
+  "use_date": "2026-10-09",
+  "id": "B",
+  "format": "comparison",
+  "offers": [
+    {
+      "name": "버거와 음료를 따로 주문",
+      "description": "버거 7,900원과 음료 2,000원을 합친 구성입니다.",
+      "price": 9900,
+      "target": "가상 앱 회원",
+      "channel": "가상 앱 주문",
+      "start": "2026-10-01",
+      "end": "2026-10-31",
+      "minimum_spend": 0,
+      "cap": 0,
+      "exclusions": [],
+      "stacking": "다른 쿠폰 중복 불가",
+      "tax_included": true,
+      "mandatory_fees": 0,
+      "currency": "KRW",
+      "kind": "physical",
+      "model": "synthetic-burger-meal",
+      "quantity": 1,
+      "components": [
+        "버거 1개",
+        "음료 1개"
+      ],
+      "eligibility": "가상 앱 회원"
+    },
+    {
+      "name": "9,900원 세트",
+      "description": "같은 버거 1개와 음료 1개가 들어 있는 9,900원 세트입니다.",
+      "price": 9900,
+      "target": "가상 앱 회원",
+      "channel": "가상 앱 주문",
+      "start": "2026-10-01",
+      "end": "2026-10-31",
+      "minimum_spend": 0,
+      "cap": 0,
+      "exclusions": [],
+      "stacking": "다른 쿠폰 중복 불가",
+      "tax_included": true,
+      "mandatory_fees": 0,
+      "currency": "KRW",
+      "kind": "physical",
+      "model": "synthetic-burger-meal",
+      "quantity": 1,
+      "components": [
+        "버거 1개",
+        "음료 1개"
+      ],
+      "eligibility": "가상 앱 회원"
+    }
+  ],
+  "format_reason": "같은 구성의 가격 차이 확인",
+  "evidence": [
+    {
+      "id": "synthetic-source",
+      "kind": "synthetic",
+      "scope": "conditions",
+      "locator": "본 JSON의 가상 입력표",
+      "source_url": "https://example.invalid/synthetic",
+      "checked_at": "2026-10-09T00:00:00Z",
+      "reviewed": true,
+      "complete": false,
+      "assertions": {
+        "offers.0.name": "버거와 음료를 따로 주문",
+        "offers.0.description": "버거 7,900원과 음료 2,000원을 합친 구성입니다.",
+        "offers.0.price": 9900,
+        "offers.0.target": "가상 앱 회원",
+        "offers.0.channel": "가상 앱 주문",
+        "offers.0.start": "2026-10-01",
+        "offers.0.end": "2026-10-31",
+        "offers.0.minimum_spend": 0,
+        "offers.0.cap": 0,
+        "offers.0.exclusions": [],
+        "offers.0.stacking": "다른 쿠폰 중복 불가",
+        "offers.0.tax_included": true,
+        "offers.0.mandatory_fees": 0,
+        "offers.0.currency": "KRW",
+        "offers.0.kind": "physical",
+        "offers.0.model": "synthetic-burger-meal",
+        "offers.0.quantity": 1,
+        "offers.0.components": [
+          "버거 1개",
+          "음료 1개"
+        ],
+        "offers.0.eligibility": "가상 앱 회원",
+        "offers.1.name": "9,900원 세트",
+        "offers.1.description": "같은 버거 1개와 음료 1개가 들어 있는 9,900원 세트입니다.",
+        "offers.1.price": 9900,
+        "offers.1.target": "가상 앱 회원",
+        "offers.1.channel": "가상 앱 주문",
+        "offers.1.start": "2026-10-01",
+        "offers.1.end": "2026-10-31",
+        "offers.1.minimum_spend": 0,
+        "offers.1.cap": 0,
+        "offers.1.exclusions": [],
+        "offers.1.stacking": "다른 쿠폰 중복 불가",
+        "offers.1.tax_included": true,
+        "offers.1.mandatory_fees": 0,
+        "offers.1.currency": "KRW",
+        "offers.1.kind": "physical",
+        "offers.1.model": "synthetic-burger-meal",
+        "offers.1.quantity": 1,
+        "offers.1.components": [
+          "버거 1개",
+          "음료 1개"
+        ],
+        "offers.1.eligibility": "가상 앱 회원"
+      }
+    }
+  ],
+  "provenance": {
+    "offers.0.name": [
+      "synthetic-source"
+    ],
+    "offers.0.description": [
+      "synthetic-source"
+    ],
+    "offers.0.price": [
+      "synthetic-source"
+    ],
+    "offers.0.target": [
+      "synthetic-source"
+    ],
+    "offers.0.channel": [
+      "synthetic-source"
+    ],
+    "offers.0.start": [
+      "synthetic-source"
+    ],
+    "offers.0.end": [
+      "synthetic-source"
+    ],
+    "offers.0.minimum_spend": [
+      "synthetic-source"
+    ],
+    "offers.0.cap": [
+      "synthetic-source"
+    ],
+    "offers.0.exclusions": [
+      "synthetic-source"
+    ],
+    "offers.0.stacking": [
+      "synthetic-source"
+    ],
+    "offers.0.tax_included": [
+      "synthetic-source"
+    ],
+    "offers.0.mandatory_fees": [
+      "synthetic-source"
+    ],
+    "offers.0.currency": [
+      "synthetic-source"
+    ],
+    "offers.0.kind": [
+      "synthetic-source"
+    ],
+    "offers.0.model": [
+      "synthetic-source"
+    ],
+    "offers.0.quantity": [
+      "synthetic-source"
+    ],
+    "offers.0.components": [
+      "synthetic-source"
+    ],
+    "offers.0.eligibility": [
+      "synthetic-source"
+    ],
+    "offers.1.name": [
+      "synthetic-source"
+    ],
+    "offers.1.description": [
+      "synthetic-source"
+    ],
+    "offers.1.price": [
+      "synthetic-source"
+    ],
+    "offers.1.target": [
+      "synthetic-source"
+    ],
+    "offers.1.channel": [
+      "synthetic-source"
+    ],
+    "offers.1.start": [
+      "synthetic-source"
+    ],
+    "offers.1.end": [
+      "synthetic-source"
+    ],
+    "offers.1.minimum_spend": [
+      "synthetic-source"
+    ],
+    "offers.1.cap": [
+      "synthetic-source"
+    ],
+    "offers.1.exclusions": [
+      "synthetic-source"
+    ],
+    "offers.1.stacking": [
+      "synthetic-source"
+    ],
+    "offers.1.tax_included": [
+      "synthetic-source"
+    ],
+    "offers.1.mandatory_fees": [
+      "synthetic-source"
+    ],
+    "offers.1.currency": [
+      "synthetic-source"
+    ],
+    "offers.1.kind": [
+      "synthetic-source"
+    ],
+    "offers.1.model": [
+      "synthetic-source"
+    ],
+    "offers.1.quantity": [
+      "synthetic-source"
+    ],
+    "offers.1.components": [
+      "synthetic-source"
+    ],
+    "offers.1.eligibility": [
+      "synthetic-source"
+    ]
+  }
+}
