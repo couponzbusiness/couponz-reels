@@ -1,0 +1,130 @@
+{
+  "schema_version": 1,
+  "synthetic": true,
+  "use_date": "2026-10-09",
+  "id": "A",
+  "format": "single",
+  "format_reason": "한 커피 혜택과 적용조건 설명",
+  "offers": [
+    {
+      "name": "가상 커피 혜택",
+      "description": "앱 회원은 커피 한 잔을 3,000원에 주문할 수 있습니다.",
+      "price": 3000,
+      "target": "가상 앱 회원",
+      "channel": "가상 앱 주문",
+      "start": "2026-10-01",
+      "end": "2026-10-31",
+      "minimum_spend": 0,
+      "cap": 0,
+      "exclusions": [],
+      "stacking": "다른 쿠폰 중복 불가",
+      "tax_included": true,
+      "mandatory_fees": 0,
+      "currency": "KRW",
+      "kind": "physical",
+      "model": "synthetic-coffee",
+      "quantity": 1,
+      "components": [
+        "커피 1잔"
+      ],
+      "eligibility": "가상 앱 회원"
+    }
+  ],
+  "cta": {
+    "action": "check_conditions"
+  },
+  "evidence": [
+    {
+      "id": "synthetic-source",
+      "kind": "synthetic",
+      "scope": "conditions",
+      "locator": "본 JSON의 가상 입력표",
+      "source_url": "https://example.invalid/synthetic",
+      "checked_at": "2026-10-09T00:00:00Z",
+      "reviewed": true,
+      "complete": false,
+      "assertions": {
+        "offers.0.name": "가상 커피 혜택",
+        "offers.0.description": "앱 회원은 커피 한 잔을 3,000원에 주문할 수 있습니다.",
+        "offers.0.price": 3000,
+        "offers.0.target": "가상 앱 회원",
+        "offers.0.channel": "가상 앱 주문",
+        "offers.0.start": "2026-10-01",
+        "offers.0.end": "2026-10-31",
+        "offers.0.minimum_spend": 0,
+        "offers.0.cap": 0,
+        "offers.0.exclusions": [],
+        "offers.0.stacking": "다른 쿠폰 중복 불가",
+        "offers.0.tax_included": true,
+        "offers.0.mandatory_fees": 0,
+        "offers.0.currency": "KRW",
+        "offers.0.kind": "physical",
+        "offers.0.model": "synthetic-coffee",
+        "offers.0.quantity": 1,
+        "offers.0.components": [
+          "커피 1잔"
+        ],
+        "offers.0.eligibility": "가상 앱 회원"
+      }
+    }
+  ],
+  "provenance": {
+    "offers.0.name": [
+      "synthetic-source"
+    ],
+    "offers.0.description": [
+      "synthetic-source"
+    ],
+    "offers.0.price": [
+      "synthetic-source"
+    ],
+    "offers.0.target": [
+      "synthetic-source"
+    ],
+    "offers.0.channel": [
+      "synthetic-source"
+    ],
+    "offers.0.start": [
+      "synthetic-source"
+    ],
+    "offers.0.end": [
+      "synthetic-source"
+    ],
+    "offers.0.minimum_spend": [
+      "synthetic-source"
+    ],
+    "offers.0.cap": [
+      "synthetic-source"
+    ],
+    "offers.0.exclusions": [
+      "synthetic-source"
+    ],
+    "offers.0.stacking": [
+      "synthetic-source"
+    ],
+    "offers.0.tax_included": [
+      "synthetic-source"
+    ],
+    "offers.0.mandatory_fees": [
+      "synthetic-source"
+    ],
+    "offers.0.currency": [
+      "synthetic-source"
+    ],
+    "offers.0.kind": [
+      "synthetic-source"
+    ],
+    "offers.0.model": [
+      "synthetic-source"
+    ],
+    "offers.0.quantity": [
+      "synthetic-source"
+    ],
+    "offers.0.components": [
+      "synthetic-source"
+    ],
+    "offers.0.eligibility": [
+      "synthetic-source"
+    ]
+  }
+}
